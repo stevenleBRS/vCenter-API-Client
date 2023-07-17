@@ -35,7 +35,7 @@
                         }
                     }
                 },
-                "operationId": "issueApiVcenterAuthenticationToken",
+                "operationId": "issue",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterAuthenticationTokenIssue"
                 }
@@ -56,7 +56,7 @@
                         }
                     }
                 },
-                "operationId": "setApiVcenterCertificateManagementVcenterSigningCertificate",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterCertificateManagementVcenterSigningCertificateSet"
                 }
@@ -79,7 +79,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterCertificateManagementVcenterSigningCertificate"
+                "operationId": "get"
             }
         },
         "/api/vcenter/certificate-management/vcenter/signing-certificate?action=refresh": {
@@ -101,7 +101,7 @@
                         }
                     }
                 },
-                "operationId": "refreshApiVcenterCertificateManagementVcenterSigningCertificate",
+                "operationId": "refresh",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterCertificateManagementVcenterSigningCertificateRefresh"
                 }
@@ -156,7 +156,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterComputePolicies",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterComputePoliciesCreate"
                 }
@@ -192,7 +192,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterComputePolicies"
+                "operationId": "list"
             }
         },
         "/api/vcenter/compute/policies/capabilities": {
@@ -227,7 +227,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterComputePoliciesCapabilities"
+                "operationId": "list"
             }
         },
         "/api/vcenter/compute/policies/capabilities/{capability}": {
@@ -279,7 +279,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterComputePoliciesCapabilities"
+                "operationId": "get"
             }
         },
         "/api/vcenter/compute/policies/tag-usage": {
@@ -348,7 +348,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterComputePoliciesTagUsage"
+                "operationId": "list"
             }
         },
         "/api/vcenter/compute/policies/{policy}": {
@@ -400,7 +400,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterComputePolicies"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -446,7 +446,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterComputePolicies"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/crypto-manager/hosts/{host}/kms/providers": {
@@ -574,7 +574,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterCryptoManagerHostsKmsProviders"
+                "operationId": "list"
             }
         },
         "/api/vcenter/crypto-manager/hosts/{host}/kms/providers/{provider}": {
@@ -665,7 +665,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterCryptoManagerHostsKmsProviders"
+                "operationId": "get"
             }
         },
         "/api/vcenter/crypto-manager/kms/providers": {
@@ -723,7 +723,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterCryptoManagerKmsProviders",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterCryptoManagerKmsProvidersCreate"
                 }
@@ -818,7 +818,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterCryptoManagerKmsProviders"
+                "operationId": "list"
             }
         },
         "/api/vcenter/crypto-manager/kms/providers/{provider}": {
@@ -900,7 +900,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterCryptoManagerKmsProviders"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -976,7 +976,7 @@
                         }
                     }
                 },
-                "operationId": "updateApiVcenterCryptoManagerKmsProviders",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterCryptoManagerKmsProvidersUpdate"
                 }
@@ -1055,7 +1055,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterCryptoManagerKmsProviders"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/crypto-manager/kms/providers?action=export": {
@@ -1127,7 +1127,7 @@
                         }
                     }
                 },
-                "operationId": "exportApiVcenterCryptoManagerKmsProviders",
+                "operationId": "export",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterCryptoManagerKmsProvidersExport"
                 }
@@ -1192,7 +1192,7 @@
                         }
                     }
                 },
-                "operationId": "importProviderApiVcenterCryptoManagerKmsProviders",
+                "operationId": "import_provider",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterCryptoManagerKmsProvidersImportProvider"
                 }
@@ -1247,7 +1247,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterLcmDiscoveryAssociatedProducts",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterLcmDiscoveryAssociatedProductsCreate"
                 }
@@ -1293,7 +1293,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterLcmDiscoveryAssociatedProducts"
+                "operationId": "list"
             }
         },
         "/api/vcenter/lcm/discovery/associated-products/{product}": {
@@ -1355,7 +1355,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterLcmDiscoveryAssociatedProducts"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -1421,7 +1421,7 @@
                         }
                     }
                 },
-                "operationId": "updateApiVcenterLcmDiscoveryAssociatedProducts",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterLcmDiscoveryAssociatedProductsUpdate"
                 }
@@ -1480,7 +1480,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterLcmDiscoveryAssociatedProducts"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/lcm/discovery/interop-report?vmw-task=true": {
@@ -1522,7 +1522,7 @@
                         }
                     }
                 },
-                "operationId": "create$taskApiVcenterLcmDiscoveryInteropReport",
+                "operationId": "create$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterLcmDiscoveryInteropReportCreateTask"
                 }
@@ -1570,7 +1570,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterLcmDiscoveryProductCatalog"
+                "operationId": "list"
             }
         },
         "/api/vcenter/lcm/reports/{report}": {
@@ -1632,7 +1632,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterLcmReports"
+                "operationId": "get"
             }
         },
         "/api/vcenter/lcm/update/pending": {
@@ -1674,7 +1674,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterLcmUpdatePending"
+                "operationId": "list"
             }
         },
         "/api/vcenter/lcm/update/pending/{version}": {
@@ -1736,7 +1736,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterLcmUpdatePending"
+                "operationId": "get"
             }
         },
         "/api/vcenter/lcm/update/pending/{version}/precheck-report?vmw-task=true": {
@@ -1808,7 +1808,7 @@
                         }
                     }
                 },
-                "operationId": "create$taskApiVcenterLcmUpdatePendingPrecheckReport"
+                "operationId": "create$task"
             }
         },
         "/api/vcenter/namespace-management/capability": {
@@ -1860,7 +1860,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementCapability"
+                "operationId": "get"
             }
         },
         "/api/vcenter/namespace-management/cluster-compatibility": {
@@ -1946,7 +1946,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementClusterCompatibility"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/cluster-size-info": {
@@ -1991,7 +1991,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementClusterSizeInfo"
+                "operationId": "get"
             }
         },
         "/api/vcenter/namespace-management/clusters": {
@@ -2046,7 +2046,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementClusters"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/clusters/{cluster}": {
@@ -2124,7 +2124,7 @@
                         }
                     }
                 },
-                "operationId": "setApiVcenterNamespaceManagementClusters",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementClustersSet"
                 }
@@ -2207,7 +2207,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementClusters"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -2283,7 +2283,7 @@
                         }
                     }
                 },
-                "operationId": "updateApiVcenterNamespaceManagementClusters",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementClustersUpdate"
                 }
@@ -2371,7 +2371,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementClustersLoadBalancers"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/clusters/{cluster}/load-balancers/{id}": {
@@ -2458,7 +2458,7 @@
                         }
                     }
                 },
-                "operationId": "setApiVcenterNamespaceManagementClustersLoadBalancers",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementLoadBalancersSet"
                 }
@@ -2550,7 +2550,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementClustersLoadBalancers"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -2635,7 +2635,7 @@
                         }
                     }
                 },
-                "operationId": "updateApiVcenterNamespaceManagementClustersLoadBalancers",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementLoadBalancersUpdate"
                 }
@@ -2716,7 +2716,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterNamespaceManagementClustersNetworks",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementNetworksCreate"
                 }
@@ -2792,7 +2792,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementClustersNetworks"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/clusters/{cluster}/networks/{network}": {
@@ -2879,7 +2879,7 @@
                         }
                     }
                 },
-                "operationId": "setApiVcenterNamespaceManagementClustersNetworks",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementNetworksSet"
                 }
@@ -2961,7 +2961,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementClustersNetworks"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -3046,7 +3046,7 @@
                         }
                     }
                 },
-                "operationId": "updateApiVcenterNamespaceManagementClustersNetworks",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementNetworksUpdate"
                 }
@@ -3134,7 +3134,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterNamespaceManagementClustersNetworks"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/namespace-management/clusters/{cluster}/supervisor-services": {
@@ -3212,7 +3212,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterNamespaceManagementClustersSupervisorServices",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementSupervisorServicesClusterSupervisorServicesCreate"
                 }
@@ -3298,7 +3298,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementClustersSupervisorServices"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/clusters/{cluster}/supervisor-services/{supervisor_service}": {
@@ -3385,7 +3385,7 @@
                         }
                     }
                 },
-                "operationId": "setApiVcenterNamespaceManagementClustersSupervisorServices",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementSupervisorServicesClusterSupervisorServicesSet"
                 }
@@ -3477,7 +3477,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementClustersSupervisorServices"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -3562,7 +3562,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterNamespaceManagementClustersSupervisorServices"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/namespace-management/clusters/{cluster}/support-bundle": {
@@ -3634,7 +3634,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterNamespaceManagementClustersSupportBundle"
+                "operationId": "create"
             }
         },
         "/api/vcenter/namespace-management/clusters/{cluster}/workload-resource-options": {
@@ -3716,7 +3716,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementClustersWorkloadResourceOptions"
+                "operationId": "get"
             }
         },
         "/api/vcenter/namespace-management/clusters/{cluster}?action=disable": {
@@ -3794,7 +3794,7 @@
                         }
                     }
                 },
-                "operationId": "disableApiVcenterNamespaceManagementClusters"
+                "operationId": "disable"
             }
         },
         "/api/vcenter/namespace-management/clusters/{cluster}?action=enable": {
@@ -3872,7 +3872,7 @@
                         }
                     }
                 },
-                "operationId": "enableApiVcenterNamespaceManagementClusters",
+                "operationId": "enable",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementClustersEnable"
                 }
@@ -3953,7 +3953,7 @@
                         }
                     }
                 },
-                "operationId": "rotatePasswordApiVcenterNamespaceManagementClusters"
+                "operationId": "rotate_password"
             }
         },
         "/api/vcenter/namespace-management/distributed-switch-compatibility": {
@@ -4048,7 +4048,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementDistributedSwitchCompatibility"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/edge-cluster-compatibility": {
@@ -4140,7 +4140,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementEdgeClusterCompatibility"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/nsx-tier0-gateways": {
@@ -4215,7 +4215,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementNsxTier0Gateways"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/software/cluster-available-versions": {
@@ -4270,7 +4270,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementSoftwareClusterAvailableVersions"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/software/clusters": {
@@ -4325,7 +4325,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementSoftwareClusters"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/software/clusters/{cluster}": {
@@ -4407,7 +4407,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementSoftwareClusters"
+                "operationId": "get"
             }
         },
         "/api/vcenter/namespace-management/software/clusters/{cluster}?action=upgrade": {
@@ -4485,7 +4485,7 @@
                         }
                     }
                 },
-                "operationId": "upgradeApiVcenterNamespaceManagementSoftwareClusters",
+                "operationId": "upgrade",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementSoftwareClustersUpgrade"
                 }
@@ -4543,7 +4543,7 @@
                         }
                     }
                 },
-                "operationId": "upgradeMultipleApiVcenterNamespaceManagementSoftwareClusters",
+                "operationId": "upgrade_multiple",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementSoftwareClustersUpgradeMultiple"
                 }
@@ -4694,7 +4694,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementStatsTimeSeries"
+                "operationId": "get"
             }
         },
         "/api/vcenter/namespace-management/supervisor-services": {
@@ -4752,7 +4752,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterNamespaceManagementSupervisorServices",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementSupervisorServicesCreate"
                 }
@@ -4808,7 +4808,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementSupervisorServices"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/supervisor-services/{supervisor_service}": {
@@ -4880,7 +4880,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementSupervisorServices"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -4956,7 +4956,7 @@
                         }
                     }
                 },
-                "operationId": "updateApiVcenterNamespaceManagementSupervisorServices",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementSupervisorServicesUpdate"
                 }
@@ -5035,7 +5035,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterNamespaceManagementSupervisorServices"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/namespace-management/supervisor-services/{supervisor_service}/versions": {
@@ -5113,7 +5113,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterNamespaceManagementSupervisorServicesVersions",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementSupervisorServicesVersionsCreate"
                 }
@@ -5189,7 +5189,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementSupervisorServicesVersions"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/supervisor-services/{supervisor_service}/versions/{version}": {
@@ -5270,7 +5270,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementSupervisorServicesVersions"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -5355,7 +5355,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterNamespaceManagementSupervisorServicesVersions"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/namespace-management/supervisor-services/{supervisor_service}/versions/{version}?action=activate": {
@@ -5442,7 +5442,7 @@
                         }
                     }
                 },
-                "operationId": "activateApiVcenterNamespaceManagementSupervisorServicesVersions"
+                "operationId": "activate"
             }
         },
         "/api/vcenter/namespace-management/supervisor-services/{supervisor_service}/versions/{version}?action=deactivate": {
@@ -5529,7 +5529,7 @@
                         }
                     }
                 },
-                "operationId": "deactivateApiVcenterNamespaceManagementSupervisorServicesVersions"
+                "operationId": "deactivate"
             }
         },
         "/api/vcenter/namespace-management/supervisor-services/{supervisor_service}?action=activate": {
@@ -5607,7 +5607,7 @@
                         }
                     }
                 },
-                "operationId": "activateApiVcenterNamespaceManagementSupervisorServices"
+                "operationId": "activate"
             }
         },
         "/api/vcenter/namespace-management/supervisor-services/{supervisor_service}?action=deactivate": {
@@ -5685,7 +5685,7 @@
                         }
                     }
                 },
-                "operationId": "deactivateApiVcenterNamespaceManagementSupervisorServices"
+                "operationId": "deactivate"
             }
         },
         "/api/vcenter/namespace-management/supervisor-services?action=checkContent": {
@@ -5747,7 +5747,7 @@
                         }
                     }
                 },
-                "operationId": "checkContentApiVcenterNamespaceManagementSupervisorServices",
+                "operationId": "check_content",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementSupervisorServicesCheckContent"
                 }
@@ -5808,7 +5808,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterNamespaceManagementVirtualMachineClasses",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementVirtualMachineClassesCreate"
                 }
@@ -5864,7 +5864,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespaceManagementVirtualMachineClasses"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespace-management/virtual-machine-classes/{vm_class}": {
@@ -5936,7 +5936,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespaceManagementVirtualMachineClasses"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -6012,7 +6012,7 @@
                         }
                     }
                 },
-                "operationId": "updateApiVcenterNamespaceManagementVirtualMachineClasses",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespaceManagementVirtualMachineClassesUpdate"
                 }
@@ -6091,7 +6091,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterNamespaceManagementVirtualMachineClasses"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/namespaces-user/namespaces": {
@@ -6146,7 +6146,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespacesUserNamespaces"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespaces/instances": {
@@ -6214,7 +6214,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterNamespacesInstances",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespacesInstancesCreate"
                 }
@@ -6270,7 +6270,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespacesInstances"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespaces/instances/{namespace}": {
@@ -6348,7 +6348,7 @@
                         }
                     }
                 },
-                "operationId": "setApiVcenterNamespacesInstances",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespacesInstancesSet"
                 }
@@ -6421,7 +6421,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespacesInstances"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -6497,7 +6497,7 @@
                         }
                     }
                 },
-                "operationId": "updateApiVcenterNamespacesInstances",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespacesInstancesUpdate"
                 }
@@ -6576,7 +6576,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterNamespacesInstances"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/namespaces/instances/{namespace}/access/{domain}/{subject}": {
@@ -6685,7 +6685,7 @@
                         }
                     }
                 },
-                "operationId": "setApiVcenterNamespacesInstancesAccess",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespacesAccessSet"
                 }
@@ -6799,7 +6799,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespacesInstancesAccess"
+                "operationId": "get"
             },
             "post": {
                 "tags": [
@@ -6906,7 +6906,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterNamespacesInstancesAccess",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespacesAccessCreate"
                 }
@@ -7016,7 +7016,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterNamespacesInstancesAccess"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/namespaces/namespace-self-service": {
@@ -7071,7 +7071,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterNamespacesNamespaceSelfService"
+                "operationId": "list"
             }
         },
         "/api/vcenter/namespaces/namespace-self-service/{cluster}": {
@@ -7143,7 +7143,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterNamespacesNamespaceSelfService"
+                "operationId": "get"
             }
         },
         "/api/vcenter/namespaces/namespace-self-service/{cluster}?action=activate": {
@@ -7221,7 +7221,7 @@
                         }
                     }
                 },
-                "operationId": "activateApiVcenterNamespacesNamespaceSelfService"
+                "operationId": "activate"
             }
         },
         "/api/vcenter/namespaces/namespace-self-service/{cluster}?action=activateWithTemplate": {
@@ -7299,7 +7299,7 @@
                         }
                     }
                 },
-                "operationId": "activateWithTemplateApiVcenterNamespacesNamespaceSelfService",
+                "operationId": "activate_with_template",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterNamespacesNamespaceSelfServiceActivateWithTemplate"
                 }
@@ -7380,7 +7380,7 @@
                         }
                     }
                 },
-                "operationId": "deactivateApiVcenterNamespacesNamespaceSelfService"
+                "operationId": "deactivate"
             }
         },
         "/api/vcenter/tagging/associations": {
@@ -7431,7 +7431,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterTaggingAssociations"
+                "operationId": "list"
             }
         },
         "/api/vcenter/trusted-infrastructure/attestation/services": {
@@ -7483,7 +7483,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterTrustedInfrastructureAttestationServices",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureAttestationServicesCreate"
                 }
@@ -7548,7 +7548,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterTrustedInfrastructureAttestationServices"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -7604,7 +7604,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterTrustedInfrastructureAttestationServices"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/trusted-infrastructure/attestation/services?action=query": {
@@ -7649,7 +7649,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterTrustedInfrastructureAttestationServices",
+                "operationId": "list",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureAttestationServicesList"
                 }
@@ -7704,7 +7704,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterTrustedInfrastructureKmsServices",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureKmsServicesCreate"
                 }
@@ -7769,7 +7769,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterTrustedInfrastructureKmsServices"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -7825,7 +7825,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterTrustedInfrastructureKmsServices"
+                "operationId": "delete"
             }
         },
         "/api/vcenter/trusted-infrastructure/kms/services?action=query": {
@@ -7870,7 +7870,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterTrustedInfrastructureKmsServices",
+                "operationId": "list",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureKmsServicesList"
                 }
@@ -7915,7 +7915,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterTrustedInfrastructurePrincipal"
+                "operationId": "get"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters": {
@@ -7987,7 +7987,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterTrustedInfrastructureTrustAuthorityClusters"
+                "operationId": "list"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}": {
@@ -8049,7 +8049,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterTrustedInfrastructureTrustAuthorityClusters"
+                "operationId": "get"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/attestation/os/esx/base-images/{version}?vmw-task=true": {
@@ -8130,7 +8130,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationOsEsxBaseImages"
+                "operationId": "get$task"
             },
             "delete": {
                 "tags": [
@@ -8209,7 +8209,7 @@
                         }
                     }
                 },
-                "operationId": "delete$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationOsEsxBaseImages"
+                "operationId": "delete$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/attestation/os/esx/base-images?action=import-from-imgdb&vmw-task=true": {
@@ -8281,7 +8281,7 @@
                         }
                     }
                 },
-                "operationId": "importFromImgdb$TaskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationOsEsxBaseImages",
+                "operationId": "import_from_imgdb$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersAttestationOsEsxBaseImagesImportFromImgdbTask"
                 }
@@ -8395,7 +8395,7 @@
                         }
                     }
                 },
-                "operationId": "list$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationOsEsxBaseImages"
+                "operationId": "list$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/attestation/service-status?vmw-task=true": {
@@ -8467,7 +8467,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationServiceStatus"
+                "operationId": "get$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/attestation/tpm2/ca-certificates/{name}?vmw-task=true": {
@@ -8548,7 +8548,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2CaCertificates"
+                "operationId": "get$task"
             },
             "delete": {
                 "tags": [
@@ -8627,7 +8627,7 @@
                         }
                     }
                 },
-                "operationId": "delete$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2CaCertificates"
+                "operationId": "delete$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/attestation/tpm2/ca-certificates?vmw-task=true": {
@@ -8699,7 +8699,7 @@
                         }
                     }
                 },
-                "operationId": "list$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2CaCertificates"
+                "operationId": "list$task"
             },
             "post": {
                 "tags": [
@@ -8769,7 +8769,7 @@
                         }
                     }
                 },
-                "operationId": "create$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2CaCertificates",
+                "operationId": "create$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2CaCertificatesCreateTask"
                 }
@@ -8853,7 +8853,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2EndorsementKeys"
+                "operationId": "get$task"
             },
             "delete": {
                 "tags": [
@@ -8932,7 +8932,7 @@
                         }
                     }
                 },
-                "operationId": "delete$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2EndorsementKeys"
+                "operationId": "delete$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/attestation/tpm2/endorsement-keys?vmw-task=true": {
@@ -9004,7 +9004,7 @@
                         }
                     }
                 },
-                "operationId": "list$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2EndorsementKeys"
+                "operationId": "list$task"
             },
             "post": {
                 "tags": [
@@ -9074,7 +9074,7 @@
                         }
                     }
                 },
-                "operationId": "create$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2EndorsementKeys",
+                "operationId": "create$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2EndorsementKeysCreateTask"
                 }
@@ -9149,7 +9149,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2Settings"
+                "operationId": "get$task"
             },
             "patch": {
                 "tags": [
@@ -9219,7 +9219,7 @@
                         }
                     }
                 },
-                "operationId": "update$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2Settings",
+                "operationId": "update$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersAttestationTpm2SettingsUpdateTask"
                 }
@@ -9293,7 +9293,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersConsumerPrincipals"
+                "operationId": "get$task"
             },
             "delete": {
                 "tags": [
@@ -9362,7 +9362,7 @@
                         }
                     }
                 },
-                "operationId": "delete$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersConsumerPrincipals"
+                "operationId": "delete$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/consumer-principals?action=query&vmw-task=true": {
@@ -9424,7 +9424,7 @@
                         }
                     }
                 },
-                "operationId": "list$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersConsumerPrincipals",
+                "operationId": "list$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersConsumerPrincipalsListTask"
                 }
@@ -9499,7 +9499,7 @@
                         }
                     }
                 },
-                "operationId": "create$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersConsumerPrincipals",
+                "operationId": "create$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersConsumerPrincipalsCreateTask"
                 }
@@ -9583,7 +9583,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersClientCertificateCsr"
+                "operationId": "get$task"
             },
             "post": {
                 "tags": [
@@ -9662,7 +9662,7 @@
                         }
                     }
                 },
-                "operationId": "create$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersClientCertificateCsr"
+                "operationId": "create$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/kms/providers/{provider}/client-certificate?vmw-task=true": {
@@ -9743,7 +9743,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersClientCertificate"
+                "operationId": "get$task"
             },
             "patch": {
                 "tags": [
@@ -9822,7 +9822,7 @@
                         }
                     }
                 },
-                "operationId": "update$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersClientCertificate",
+                "operationId": "update$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersClientCertificateUpdateTask"
                 }
@@ -9904,7 +9904,7 @@
                         }
                     }
                 },
-                "operationId": "create$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersClientCertificate"
+                "operationId": "create$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/kms/providers/{provider}/credential?vmw-task=true": {
@@ -9985,7 +9985,7 @@
                         }
                     }
                 },
-                "operationId": "set$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersCredential",
+                "operationId": "set$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersCredentialSetTask"
                 }
@@ -10088,7 +10088,7 @@
                         }
                     }
                 },
-                "operationId": "list$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersPeerCertsCurrent"
+                "operationId": "list$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/kms/providers/{provider}/peer-certs/trusted?vmw-task=true": {
@@ -10169,7 +10169,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersPeerCertsTrusted"
+                "operationId": "get$task"
             },
             "patch": {
                 "tags": [
@@ -10248,7 +10248,7 @@
                         }
                     }
                 },
-                "operationId": "update$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersPeerCertsTrusted",
+                "operationId": "update$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersTrustedPeerCertificatesUpdateTask"
                 }
@@ -10332,7 +10332,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProviders"
+                "operationId": "get$task"
             },
             "patch": {
                 "tags": [
@@ -10411,7 +10411,7 @@
                         }
                     }
                 },
-                "operationId": "update$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProviders",
+                "operationId": "update$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersUpdateTask"
                 }
@@ -10493,7 +10493,7 @@
                         }
                     }
                 },
-                "operationId": "delete$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProviders"
+                "operationId": "delete$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}/kms/providers?vmw-task=true": {
@@ -10565,7 +10565,7 @@
                         }
                     }
                 },
-                "operationId": "list$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProviders"
+                "operationId": "list$task"
             },
             "post": {
                 "tags": [
@@ -10635,7 +10635,7 @@
                         }
                     }
                 },
-                "operationId": "create$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsProviders",
+                "operationId": "create$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersKmsProvidersCreateTask"
                 }
@@ -10710,7 +10710,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustAuthorityClustersKmsServiceStatus"
+                "operationId": "get$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-clusters/{cluster}?vmw-task=true": {
@@ -10772,7 +10772,7 @@
                         }
                     }
                 },
-                "operationId": "update$taskApiVcenterTrustedInfrastructureTrustAuthorityClusters",
+                "operationId": "update$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityClustersUpdateTask"
                 }
@@ -10845,7 +10845,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterTrustedInfrastructureTrustAuthorityHostsAttestation",
+                "operationId": "list",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityHostsAttestationList"
                 }
@@ -10918,7 +10918,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterTrustedInfrastructureTrustAuthorityHostsKms",
+                "operationId": "list",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustAuthorityHostsKmsList"
                 }
@@ -10983,7 +10983,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterTrustedInfrastructureTrustAuthorityHostsAttestation"
+                "operationId": "get"
             }
         },
         "/api/vcenter/trusted-infrastructure/trust-authority-hosts/{host}/kms/": {
@@ -11045,7 +11045,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterTrustedInfrastructureTrustAuthorityHostsKms"
+                "operationId": "get"
             }
         },
         "/api/vcenter/trusted-infrastructure/trusted-clusters/{cluster}/attestation/services-applied-config?action=query&vmw-task=true": {
@@ -11117,7 +11117,7 @@
                         }
                     }
                 },
-                "operationId": "list$taskApiVcenterTrustedInfrastructureTrustedClustersAttestationServicesAppliedConfig",
+                "operationId": "list$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustedClustersAttestationServicesAppliedConfigListTask"
                 }
@@ -11210,7 +11210,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustedClustersAttestationServicesAppliedConfig"
+                "operationId": "get$task"
             },
             "patch": {
                 "tags": [
@@ -11280,7 +11280,7 @@
                         }
                     }
                 },
-                "operationId": "update$taskApiVcenterTrustedInfrastructureTrustedClustersAttestationServicesAppliedConfig"
+                "operationId": "update$task"
             },
             "delete": {
                 "tags": [
@@ -11350,7 +11350,7 @@
                         }
                     }
                 },
-                "operationId": "delete$taskApiVcenterTrustedInfrastructureTrustedClustersAttestationServicesAppliedConfig"
+                "operationId": "delete$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trusted-clusters/{cluster}/attestation/services/{service}": {
@@ -11421,7 +11421,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterTrustedInfrastructureTrustedClustersAttestationServices"
+                "operationId": "get"
             }
         },
         "/api/vcenter/trusted-infrastructure/trusted-clusters/{cluster}/attestation/services/{service}?vmw-task=true": {
@@ -11492,7 +11492,7 @@
                         }
                     }
                 },
-                "operationId": "delete$taskApiVcenterTrustedInfrastructureTrustedClustersAttestationServices"
+                "operationId": "delete$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trusted-clusters/{cluster}/attestation/services?action=query": {
@@ -11557,7 +11557,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterTrustedInfrastructureTrustedClustersAttestationServices",
+                "operationId": "list",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustedClustersAttestationServicesList"
                 }
@@ -11632,7 +11632,7 @@
                         }
                     }
                 },
-                "operationId": "create$taskApiVcenterTrustedInfrastructureTrustedClustersAttestationServices",
+                "operationId": "create$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustedClustersAttestationServicesCreateTask"
                 }
@@ -11707,7 +11707,7 @@
                         }
                     }
                 },
-                "operationId": "list$taskApiVcenterTrustedInfrastructureTrustedClustersKmsServicesAppliedConfig",
+                "operationId": "list$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustedClustersKmsServicesAppliedConfigListTask"
                 }
@@ -11800,7 +11800,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustedClustersKmsServicesAppliedConfig"
+                "operationId": "get$task"
             },
             "patch": {
                 "tags": [
@@ -11870,7 +11870,7 @@
                         }
                     }
                 },
-                "operationId": "update$taskApiVcenterTrustedInfrastructureTrustedClustersKmsServicesAppliedConfig"
+                "operationId": "update$task"
             },
             "delete": {
                 "tags": [
@@ -11940,7 +11940,7 @@
                         }
                     }
                 },
-                "operationId": "delete$taskApiVcenterTrustedInfrastructureTrustedClustersKmsServicesAppliedConfig"
+                "operationId": "delete$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trusted-clusters/{cluster}/kms/services/{service}": {
@@ -12011,7 +12011,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterTrustedInfrastructureTrustedClustersKmsServices"
+                "operationId": "get"
             }
         },
         "/api/vcenter/trusted-infrastructure/trusted-clusters/{cluster}/kms/services/{service}?vmw-task=true": {
@@ -12082,7 +12082,7 @@
                         }
                     }
                 },
-                "operationId": "delete$taskApiVcenterTrustedInfrastructureTrustedClustersKmsServices"
+                "operationId": "delete$task"
             }
         },
         "/api/vcenter/trusted-infrastructure/trusted-clusters/{cluster}/kms/services?action=query": {
@@ -12147,7 +12147,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterTrustedInfrastructureTrustedClustersKmsServices",
+                "operationId": "list",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustedClustersKmsServicesList"
                 }
@@ -12222,7 +12222,7 @@
                         }
                     }
                 },
-                "operationId": "create$taskApiVcenterTrustedInfrastructureTrustedClustersKmsServices",
+                "operationId": "create$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterTrustedInfrastructureTrustedClustersKmsServicesCreateTask"
                 }
@@ -12297,7 +12297,7 @@
                         }
                     }
                 },
-                "operationId": "get$taskApiVcenterTrustedInfrastructureTrustedClustersServicesAppliedConfig"
+                "operationId": "get$task"
             },
             "patch": {
                 "tags": [
@@ -12367,7 +12367,7 @@
                         }
                     }
                 },
-                "operationId": "update$taskApiVcenterTrustedInfrastructureTrustedClustersServicesAppliedConfig"
+                "operationId": "update$task"
             },
             "delete": {
                 "tags": [
@@ -12437,7 +12437,7 @@
                         }
                     }
                 },
-                "operationId": "delete$taskApiVcenterTrustedInfrastructureTrustedClustersServicesAppliedConfig"
+                "operationId": "delete$task"
             }
         },
         "/api/vcenter/vm/{vm}/compute/policies/{policy}": {
@@ -12498,7 +12498,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterVmComputePolicies"
+                "operationId": "get"
             }
         },
         "/api/vcenter/vm/{vm}/guest/environment/{name}?action=get": {
@@ -12589,7 +12589,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterVmGuestEnvironment",
+                "operationId": "get",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestEnvironmentGet"
                 }
@@ -12677,7 +12677,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterVmGuestEnvironment",
+                "operationId": "list",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestEnvironmentList"
                 }
@@ -12768,7 +12768,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterVmGuestFilesystemDirectories",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemDirectoriesCreate"
                 }
@@ -12863,7 +12863,7 @@
                         }
                     }
                 },
-                "operationId": "createTemporaryApiVcenterVmGuestFilesystemDirectories",
+                "operationId": "create_temporary",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemDirectoriesCreateTemporary"
                 }
@@ -12954,7 +12954,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterVmGuestFilesystemDirectories",
+                "operationId": "delete",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemDirectoriesDelete"
                 }
@@ -13045,7 +13045,7 @@
                         }
                     }
                 },
-                "operationId": "moveApiVcenterVmGuestFilesystemDirectories",
+                "operationId": "move",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemDirectoriesMove"
                 }
@@ -13145,7 +13145,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterVmGuestFilesystemFiles",
+                "operationId": "delete",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemFilesDelete"
                 }
@@ -13249,7 +13249,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterVmGuestFilesystemFiles",
+                "operationId": "get",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemFilesGet"
                 }
@@ -13344,7 +13344,7 @@
                         }
                     }
                 },
-                "operationId": "createTemporaryApiVcenterVmGuestFilesystemFiles",
+                "operationId": "create_temporary",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemFilesCreateTemporary"
                 }
@@ -13439,7 +13439,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterVmGuestFilesystemFiles",
+                "operationId": "list",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemFilesList"
                 }
@@ -13530,7 +13530,7 @@
                         }
                     }
                 },
-                "operationId": "moveApiVcenterVmGuestFilesystemFiles",
+                "operationId": "move",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemFilesMove"
                 }
@@ -13621,7 +13621,7 @@
                         }
                     }
                 },
-                "operationId": "updateApiVcenterVmGuestFilesystemFiles",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemFilesUpdate"
                 }
@@ -13717,7 +13717,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterVmGuestFilesystem",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestFilesystemTransfersCreate"
                 }
@@ -13772,7 +13772,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterVmGuestOperations"
+                "operationId": "get"
             }
         },
         "/api/vcenter/vm/{vm}/guest/processes/{pid}?action=delete": {
@@ -13870,7 +13870,7 @@
                         }
                     }
                 },
-                "operationId": "deleteApiVcenterVmGuestProcesses",
+                "operationId": "delete",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestProcessesDelete"
                 }
@@ -13965,7 +13965,7 @@
                         }
                     }
                 },
-                "operationId": "getApiVcenterVmGuestProcesses",
+                "operationId": "get",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestProcessesGet"
                 }
@@ -14061,7 +14061,7 @@
                         }
                     }
                 },
-                "operationId": "createApiVcenterVmGuestProcesses",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestProcessesCreate"
                 }
@@ -14149,7 +14149,7 @@
                         }
                     }
                 },
-                "operationId": "listApiVcenterVmGuestProcesses",
+                "operationId": "list",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/VcenterVmGuestProcessesList"
                 }
@@ -14184,7 +14184,7 @@
                         }
                     }
                 },
-                "operationId": "findRestVcenterInventoryDatastore",
+                "operationId": "find",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.inventory.datastore_find"
                 }
@@ -14219,7 +14219,7 @@
                         }
                     }
                 },
-                "operationId": "findRestVcenterInventoryNetwork",
+                "operationId": "find",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.inventory.network_find"
                 }
@@ -14274,7 +14274,7 @@
                         }
                     }
                 },
-                "operationId": "mountRestVcenterIsoImage",
+                "operationId": "mount",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.iso.image_mount"
                 }
@@ -14325,7 +14325,7 @@
                         }
                     }
                 },
-                "operationId": "unmountRestVcenterIsoImage",
+                "operationId": "unmount",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.iso.image_unmount"
                 }
@@ -14350,7 +14350,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterOvfExportFlag"
+                "operationId": "list"
             }
         },
         "/rest/com/vmware/vcenter/ovf/import-flag": {
@@ -14392,7 +14392,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterOvfImportFlag"
+                "operationId": "list"
             }
         },
         "/rest/com/vmware/vcenter/ovf/library-item": {
@@ -14434,7 +14434,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterOvfLibraryItem",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.ovf.library_item_create"
                 }
@@ -14499,7 +14499,7 @@
                         }
                     }
                 },
-                "operationId": "deployRestVcenterOvfLibraryItem",
+                "operationId": "deploy",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.ovf.library_item_deploy"
                 }
@@ -14554,7 +14554,7 @@
                         }
                     }
                 },
-                "operationId": "filterRestVcenterOvfLibraryItem",
+                "operationId": "filter",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.ovf.library_item_filter"
                 }
@@ -14599,7 +14599,7 @@
                         }
                     }
                 },
-                "operationId": "createRestHvcLinks",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.hvc.links_create"
                 }
@@ -14632,7 +14632,7 @@
                         }
                     }
                 },
-                "operationId": "listRestHvcLinks"
+                "operationId": "list"
             }
         },
         "/rest/hvc/links/{link}": {
@@ -14690,7 +14690,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestHvcLinks"
+                "operationId": "delete"
             }
         },
         "/rest/hvc/links/{link}/sync/providers": {
@@ -14742,7 +14742,7 @@
                         }
                     }
                 },
-                "operationId": "listRestHvcLinksSyncProviders"
+                "operationId": "list"
             }
         },
         "/rest/hvc/links/{link}/sync/providers/{provider}": {
@@ -14813,7 +14813,7 @@
                         }
                     }
                 },
-                "operationId": "getRestHvcLinksSyncProviders"
+                "operationId": "get"
             }
         },
         "/rest/hvc/links/{link}/sync/providers/{provider}?action=start": {
@@ -14880,7 +14880,7 @@
                         }
                     }
                 },
-                "operationId": "startRestHvcLinksSyncProviders"
+                "operationId": "start"
             }
         },
         "/rest/hvc/links/{link}/sync?action=reset": {
@@ -14938,7 +14938,7 @@
                         }
                     }
                 },
-                "operationId": "resetRestHvcLinksSync"
+                "operationId": "reset"
             }
         },
         "/rest/hvc/management/administrators": {
@@ -14976,7 +14976,7 @@
                         }
                     }
                 },
-                "operationId": "setRestHvcManagementAdministrators",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.hvc.management.administrators_set"
                 }
@@ -15009,7 +15009,7 @@
                         }
                     }
                 },
-                "operationId": "getRestHvcManagementAdministrators"
+                "operationId": "get"
             }
         },
         "/rest/hvc/management/administrators?action=add": {
@@ -15047,7 +15047,7 @@
                         }
                     }
                 },
-                "operationId": "addRestHvcManagementAdministrators",
+                "operationId": "add",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.hvc.management.administrators_add"
                 }
@@ -15088,7 +15088,7 @@
                         }
                     }
                 },
-                "operationId": "removeRestHvcManagementAdministrators",
+                "operationId": "remove",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.hvc.management.administrators_remove"
                 }
@@ -15129,7 +15129,7 @@
                         }
                     }
                 },
-                "operationId": "setRestVcenterCertificateManagementVcenterTls",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.certificate_management.vcenter.tls_set"
                 }
@@ -15172,7 +15172,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterCertificateManagementVcenterTls"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/certificate-management/vcenter/tls-csr": {
@@ -15204,7 +15204,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterCertificateManagementVcenterTlsCsr",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.certificate_management.vcenter.tls_csr_create"
                 }
@@ -15235,7 +15235,7 @@
                         }
                     }
                 },
-                "operationId": "renewRestVcenterCertificateManagementVcenterTls",
+                "operationId": "renew",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.certificate_management.vcenter.tls_renew"
                 }
@@ -15266,7 +15266,7 @@
                         }
                     }
                 },
-                "operationId": "replaceVmcaSignedRestVcenterCertificateManagementVcenterTls",
+                "operationId": "replace_vmca_signed",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.certificate_management.vcenter.tls_replace_vmca_signed"
                 }
@@ -15311,7 +15311,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterCertificateManagementVcenterTrustedRootChains",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.certificate_management.vcenter.trusted_root_chains_create"
                 }
@@ -15344,7 +15344,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterCertificateManagementVcenterTrustedRootChains"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/certificate-management/vcenter/trusted-root-chains/{chain}": {
@@ -15396,7 +15396,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterCertificateManagementVcenterTrustedRootChains"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -15442,7 +15442,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterCertificateManagementVcenterTrustedRootChains"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/certificate-management/vcenter/vmca-root": {
@@ -15470,7 +15470,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterCertificateManagementVcenterVmcaRoot",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.certificate_management.vcenter.vmca_root_create"
                 }
@@ -15580,7 +15580,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterCluster"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/cluster/{cluster}": {
@@ -15652,7 +15652,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterCluster"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/content/registries/harbor": {
@@ -15714,7 +15714,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterContentRegistriesHarbor",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.content.registries.harbor_create"
                 }
@@ -15767,7 +15767,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterContentRegistriesHarbor"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/content/registries/harbor/{registry}": {
@@ -15839,7 +15839,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterContentRegistriesHarbor"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -15905,7 +15905,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterContentRegistriesHarbor"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/content/registries/harbor/{registry}/projects": {
@@ -15977,7 +15977,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterContentRegistriesHarborProjects",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.content.registries.harbor.projects_create"
                 }
@@ -16050,7 +16050,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterContentRegistriesHarborProjects"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/content/registries/harbor/{registry}/projects/{project}": {
@@ -16131,7 +16131,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterContentRegistriesHarborProjects"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -16206,7 +16206,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterContentRegistriesHarborProjects"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/content/registries/harbor/{registry}/projects/{project}?action=purge": {
@@ -16283,7 +16283,7 @@
                         }
                     }
                 },
-                "operationId": "purgeRestVcenterContentRegistriesHarborProjects"
+                "operationId": "purge"
             }
         },
         "/rest/vcenter/content/registries/{registry}/health": {
@@ -16355,7 +16355,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterContentRegistriesHealth"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/datacenter": {
@@ -16427,7 +16427,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterDatacenter",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.datacenter_create"
                 }
@@ -16524,7 +16524,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterDatacenter"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/datacenter/{datacenter}": {
@@ -16606,7 +16606,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterDatacenter"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -16691,7 +16691,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterDatacenter"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/datastore": {
@@ -16818,7 +16818,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterDatastore"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/datastore/{datastore}": {
@@ -16890,7 +16890,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterDatastore"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/datastore/{datastore}/default-policy": {
@@ -16972,7 +16972,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterDatastoreDefaultPolicy"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/deployment": {
@@ -17014,7 +17014,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterDeployment"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/deployment/history": {
@@ -17066,7 +17066,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterDeploymentHistory"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/deployment/history?action=cancel": {
@@ -17114,7 +17114,7 @@
                         }
                     }
                 },
-                "operationId": "cancelRestVcenterDeploymentHistory"
+                "operationId": "cancel"
             }
         },
         "/rest/vcenter/deployment/history?action=pause": {
@@ -17162,7 +17162,7 @@
                         }
                     }
                 },
-                "operationId": "pauseRestVcenterDeploymentHistory"
+                "operationId": "pause"
             }
         },
         "/rest/vcenter/deployment/history?action=resume": {
@@ -17210,7 +17210,7 @@
                         }
                     }
                 },
-                "operationId": "resumeRestVcenterDeploymentHistory"
+                "operationId": "resume"
             }
         },
         "/rest/vcenter/deployment/history?action=start": {
@@ -17258,7 +17258,7 @@
                         }
                     }
                 },
-                "operationId": "startRestVcenterDeploymentHistory",
+                "operationId": "start",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.import_history_start"
                 }
@@ -17303,7 +17303,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterDeploymentInstall"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/deployment/install/initial-config/remote-psc/thumbprint": {
@@ -17364,7 +17364,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterDeploymentInstallInitialConfigRemotePscThumbprint"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/deployment/install/psc/replicated?action=check": {
@@ -17406,7 +17406,7 @@
                         }
                     }
                 },
-                "operationId": "checkRestVcenterDeploymentInstallPscReplicated",
+                "operationId": "check",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.install.psc.replicated_check"
                 }
@@ -17451,7 +17451,7 @@
                         }
                     }
                 },
-                "operationId": "checkRestVcenterDeploymentInstallPscStandalone",
+                "operationId": "check",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.install.psc.standalone_check"
                 }
@@ -17496,7 +17496,7 @@
                         }
                     }
                 },
-                "operationId": "checkRestVcenterDeploymentInstallRemotePsc",
+                "operationId": "check",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.install.remote_psc_check"
                 }
@@ -17537,7 +17537,7 @@
                         }
                     }
                 },
-                "operationId": "cancelRestVcenterDeploymentInstall"
+                "operationId": "cancel"
             }
         },
         "/rest/vcenter/deployment/install?action=check": {
@@ -17579,7 +17579,7 @@
                         }
                     }
                 },
-                "operationId": "checkRestVcenterDeploymentInstall",
+                "operationId": "check",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.install_check"
                 }
@@ -17620,7 +17620,7 @@
                         }
                     }
                 },
-                "operationId": "startRestVcenterDeploymentInstall",
+                "operationId": "start",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.install_start"
                 }
@@ -17665,7 +17665,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterDeploymentMigrate"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/deployment/migrate/active-directory?action=check": {
@@ -17707,7 +17707,7 @@
                         }
                     }
                 },
-                "operationId": "checkRestVcenterDeploymentMigrateActiveDirectory",
+                "operationId": "check",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.migrate.active_directory_check"
                 }
@@ -17748,7 +17748,7 @@
                         }
                     }
                 },
-                "operationId": "cancelRestVcenterDeploymentMigrate"
+                "operationId": "cancel"
             }
         },
         "/rest/vcenter/deployment/migrate?action=check": {
@@ -17790,7 +17790,7 @@
                         }
                     }
                 },
-                "operationId": "checkRestVcenterDeploymentMigrate",
+                "operationId": "check",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.migrate_check"
                 }
@@ -17831,7 +17831,7 @@
                         }
                     }
                 },
-                "operationId": "startRestVcenterDeploymentMigrate",
+                "operationId": "start",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.migrate_start"
                 }
@@ -17886,7 +17886,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterDeploymentQuestion"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/deployment/question?action=answer": {
@@ -17934,7 +17934,7 @@
                         }
                     }
                 },
-                "operationId": "answerRestVcenterDeploymentQuestion",
+                "operationId": "answer",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.question_answer"
                 }
@@ -17979,7 +17979,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterDeploymentUpgrade"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/deployment/upgrade?action=cancel": {
@@ -18017,7 +18017,7 @@
                         }
                     }
                 },
-                "operationId": "cancelRestVcenterDeploymentUpgrade"
+                "operationId": "cancel"
             }
         },
         "/rest/vcenter/deployment/upgrade?action=check": {
@@ -18059,7 +18059,7 @@
                         }
                     }
                 },
-                "operationId": "checkRestVcenterDeploymentUpgrade",
+                "operationId": "check",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.upgrade_check"
                 }
@@ -18100,7 +18100,7 @@
                         }
                     }
                 },
-                "operationId": "startRestVcenterDeploymentUpgrade",
+                "operationId": "start",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.deployment.upgrade_start"
                 }
@@ -18141,7 +18141,7 @@
                         }
                     }
                 },
-                "operationId": "rollbackRestVcenterDeployment"
+                "operationId": "rollback"
             }
         },
         "/rest/vcenter/folder": {
@@ -18263,7 +18263,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterFolder"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/guest/customization-specs": {
@@ -18325,7 +18325,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterGuestCustomizationSpecs",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.guest.customization_specs_create"
                 }
@@ -18412,7 +18412,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterGuestCustomizationSpecs"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/guest/customization-specs/{name}": {
@@ -18490,7 +18490,7 @@
                         }
                     }
                 },
-                "operationId": "setRestVcenterGuestCustomizationSpecs",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.guest.customization_specs_set"
                 }
@@ -18563,7 +18563,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterGuestCustomizationSpecs"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -18629,7 +18629,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterGuestCustomizationSpecs"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/guest/customization-specs/{name}?action=export": {
@@ -18711,7 +18711,7 @@
                         }
                     }
                 },
-                "operationId": "exportRestVcenterGuestCustomizationSpecs",
+                "operationId": "export",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.guest.customization_specs_export"
                 }
@@ -18776,7 +18776,7 @@
                         }
                     }
                 },
-                "operationId": "importSpecificationRestVcenterGuestCustomizationSpecs",
+                "operationId": "import_specification",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.guest.customization_specs_import_specification"
                 }
@@ -18851,7 +18851,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterHost",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.host_create"
                 }
@@ -18994,7 +18994,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterHost"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/host/{host}": {
@@ -19072,7 +19072,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterHost"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/host/{host}/connect": {
@@ -19150,7 +19150,7 @@
                         }
                     }
                 },
-                "operationId": "connectRestVcenterHost"
+                "operationId": "connect"
             }
         },
         "/rest/vcenter/host/{host}/disconnect": {
@@ -19228,7 +19228,7 @@
                         }
                     }
                 },
-                "operationId": "disconnectRestVcenterHost"
+                "operationId": "disconnect"
             }
         },
         "/rest/vcenter/identity/providers": {
@@ -19270,7 +19270,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterIdentityProviders",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.identity.providers_create"
                 }
@@ -19303,7 +19303,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterIdentityProviders"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/identity/providers/{provider}": {
@@ -19355,7 +19355,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterIdentityProviders"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -19411,7 +19411,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterIdentityProviders",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.identity.providers_update"
                 }
@@ -19460,7 +19460,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterIdentityProviders"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/namespaces/namespace-templates/clusters/{cluster}": {
@@ -19528,7 +19528,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterNamespacesNamespaceTemplatesClusters",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.namespaces.namespace_templates_create"
                 }
@@ -19601,7 +19601,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterNamespacesNamespaceTemplatesClusters"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/namespaces/namespace-templates/clusters/{cluster}/templates/{template}": {
@@ -19682,7 +19682,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterNamespacesNamespaceTemplatesClustersTemplates"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -19757,7 +19757,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterNamespacesNamespaceTemplatesClustersTemplates",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.namespaces.namespace_templates_update"
                 }
@@ -19883,7 +19883,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterNetwork"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/resource-pool": {
@@ -19955,7 +19955,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterResourcePool",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.resource_pool_create"
                 }
@@ -20085,7 +20085,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterResourcePool"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/resource-pool/{resource_pool}": {
@@ -20157,7 +20157,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterResourcePool"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -20233,7 +20233,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterResourcePool",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.resource_pool_update"
                 }
@@ -20312,7 +20312,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterResourcePool"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/services": {
@@ -20344,7 +20344,7 @@
                         }
                     }
                 },
-                "operationId": "listDetailsRestVcenterServices"
+                "operationId": "list_details"
             }
         },
         "/rest/vcenter/services/{service}": {
@@ -20396,7 +20396,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterServices"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -20442,7 +20442,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterServices",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.services.service_update"
                 }
@@ -20503,7 +20503,7 @@
                         }
                     }
                 },
-                "operationId": "restartRestVcenterServices"
+                "operationId": "restart"
             }
         },
         "/rest/vcenter/services/{service}/start": {
@@ -20561,7 +20561,7 @@
                         }
                     }
                 },
-                "operationId": "startRestVcenterServices"
+                "operationId": "start"
             }
         },
         "/rest/vcenter/services/{service}/stop": {
@@ -20609,7 +20609,7 @@
                         }
                     }
                 },
-                "operationId": "stopRestVcenterServices"
+                "operationId": "stop"
             }
         },
         "/rest/vcenter/storage/policies": {
@@ -20683,7 +20683,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterStoragePolicies"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/storage/policies/compliance/vm": {
@@ -20775,7 +20775,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterStoragePoliciesComplianceVm"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/storage/policies/entities/compliance": {
@@ -20856,7 +20856,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterStoragePoliciesEntitiesCompliance"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/storage/policies/{policy}/vm": {
@@ -20938,7 +20938,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterStoragePoliciesVm"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/storage/policies/{policy}?action=check-compatibility": {
@@ -21020,7 +21020,7 @@
                         }
                     }
                 },
-                "operationId": "checkCompatibilityRestVcenterStoragePolicies",
+                "operationId": "check_compatibility",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.storage.policies_check_compatibility"
                 }
@@ -21065,7 +21065,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterSystemConfigDeploymentType"
+                "operationId": "get"
             },
             "post": {
                 "tags": [
@@ -21101,7 +21101,7 @@
                         }
                     }
                 },
-                "operationId": "reconfigureRestVcenterSystemConfigDeploymentType",
+                "operationId": "reconfigure",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.system_config.deployment_type_reconfigure"
                 }
@@ -21142,7 +21142,7 @@
                         }
                     }
                 },
-                "operationId": "repointRestVcenterSystemConfigPscRegistration",
+                "operationId": "repoint",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.system_config.psc_registration_repoint"
                 }
@@ -21185,7 +21185,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterSystemConfigPscRegistration"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/tokenservice/token-exchange": {
@@ -21237,7 +21237,7 @@
                         }
                     }
                 },
-                "operationId": "exchangeRestVcenterTokenserviceTokenExchange",
+                "operationId": "exchange",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.tokenservice.token_exchange_exchange"
                 }
@@ -21309,7 +21309,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterTopologyNodes"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/topology/nodes/{node}": {
@@ -21371,7 +21371,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterTopologyNodes"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/topology/replication-status": {
@@ -21435,7 +21435,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterTopologyReplicationStatus"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vcha/cluster/active?action=get": {
@@ -21487,7 +21487,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVchaClusterActive",
+                "operationId": "get",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vcha.cluster.active_get"
                 }
@@ -21532,7 +21532,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVchaClusterDeploymentType"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vcha/cluster/mode": {
@@ -21574,7 +21574,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVchaClusterMode"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vcha/cluster/mode?vmw-task=true": {
@@ -21616,7 +21616,7 @@
                         }
                     }
                 },
-                "operationId": "set$taskRestVcenterVchaClusterMode",
+                "operationId": "set$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vcha.cluster.mode_set_task"
                 }
@@ -21671,7 +21671,7 @@
                         }
                     }
                 },
-                "operationId": "checkRestVcenterVchaClusterPassive",
+                "operationId": "check",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vcha.cluster.passive_check"
                 }
@@ -21716,7 +21716,7 @@
                         }
                     }
                 },
-                "operationId": "redeploy$taskRestVcenterVchaClusterPassive",
+                "operationId": "redeploy$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vcha.cluster.passive_redeploy_task"
                 }
@@ -21771,7 +21771,7 @@
                         }
                     }
                 },
-                "operationId": "checkRestVcenterVchaClusterWitness",
+                "operationId": "check",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vcha.cluster.witness_check"
                 }
@@ -21816,7 +21816,7 @@
                         }
                     }
                 },
-                "operationId": "redeploy$taskRestVcenterVchaClusterWitness",
+                "operationId": "redeploy$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vcha.cluster.witness_redeploy_task"
                 }
@@ -21861,7 +21861,7 @@
                         }
                     }
                 },
-                "operationId": "deploy$taskRestVcenterVchaCluster",
+                "operationId": "deploy$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vcha.cluster_deploy_task"
                 }
@@ -21906,7 +21906,7 @@
                         }
                     }
                 },
-                "operationId": "failover$taskRestVcenterVchaCluster",
+                "operationId": "failover$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vcha.cluster_failover_task"
                 }
@@ -21951,7 +21951,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVchaCluster",
+                "operationId": "get",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vcha.cluster_get"
                 }
@@ -22006,7 +22006,7 @@
                         }
                     }
                 },
-                "operationId": "undeploy$taskRestVcenterVchaCluster",
+                "operationId": "undeploy$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vcha.cluster_undeploy_task"
                 }
@@ -22051,7 +22051,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVchaOperations"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm": {
@@ -22123,7 +22123,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVm",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.VM_create"
                 }
@@ -22280,7 +22280,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVm"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm-template/library-items": {
@@ -22352,7 +22352,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmTemplateLibraryItems",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm_template.library_items_create"
                 }
@@ -22437,7 +22437,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmTemplateLibraryItems"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm-template/library-items/{template_library_item}/check-outs": {
@@ -22509,7 +22509,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmTemplateLibraryItemsCheckOuts"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm-template/library-items/{template_library_item}/check-outs/{vm}": {
@@ -22590,7 +22590,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmTemplateLibraryItemsCheckOuts"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -22665,7 +22665,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmTemplateLibraryItemsCheckOuts"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm-template/library-items/{template_library_item}/check-outs/{vm}?action=check-in": {
@@ -22746,7 +22746,7 @@
                         }
                     }
                 },
-                "operationId": "checkInRestVcenterVmTemplateLibraryItemsCheckOuts",
+                "operationId": "check_in",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm_template.library_items.check_outs_check_in"
                 }
@@ -22821,7 +22821,7 @@
                         }
                     }
                 },
-                "operationId": "checkOutRestVcenterVmTemplateLibraryItemsCheckOuts",
+                "operationId": "check_out",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm_template.library_items.check_outs_check_out"
                 }
@@ -22896,7 +22896,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmTemplateLibraryItemsVersions"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm-template/library-items/{template_library_item}/versions/{version}": {
@@ -22977,7 +22977,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmTemplateLibraryItemsVersions"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -23052,7 +23052,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmTemplateLibraryItemsVersions"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm-template/library-items/{template_library_item}/versions/{version}?action=rollback": {
@@ -23133,7 +23133,7 @@
                         }
                     }
                 },
-                "operationId": "rollbackRestVcenterVmTemplateLibraryItemsVersions",
+                "operationId": "rollback",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm_template.library_items.versions_rollback"
                 }
@@ -23218,7 +23218,7 @@
                         }
                     }
                 },
-                "operationId": "deployRestVcenterVmTemplateLibraryItems",
+                "operationId": "deploy",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm_template.library_items_deploy"
                 }
@@ -23303,7 +23303,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVm"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -23379,7 +23379,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVm"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm/{vm}/console/tickets": {
@@ -23461,7 +23461,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmConsoleTickets",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.console.tickets_create"
                 }
@@ -23542,7 +23542,7 @@
                         }
                     }
                 },
-                "operationId": "setRestVcenterVmGuestCustomization",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.guest.customization_set"
                 }
@@ -23615,7 +23615,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmGuestCustomization"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm/{vm}/guest/identity": {
@@ -23677,7 +23677,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmGuestIdentity"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm/{vm}/guest/local-filesystem": {
@@ -23739,7 +23739,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmGuestLocalFilesystem"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm/{vm}/guest/networking": {
@@ -23801,7 +23801,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmGuestNetworking"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm/{vm}/guest/networking/interfaces": {
@@ -23863,7 +23863,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmGuestNetworkingInterfaces"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/guest/networking/routes": {
@@ -23925,7 +23925,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmGuestNetworkingRoutes"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/guest/power": {
@@ -23977,7 +23977,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmGuestPower"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm/{vm}/guest/power?action=reboot": {
@@ -24035,7 +24035,7 @@
                         }
                     }
                 },
-                "operationId": "rebootRestVcenterVmGuestPower"
+                "operationId": "reboot"
             }
         },
         "/rest/vcenter/vm/{vm}/guest/power?action=shutdown": {
@@ -24093,7 +24093,7 @@
                         }
                     }
                 },
-                "operationId": "shutdownRestVcenterVmGuestPower"
+                "operationId": "shutdown"
             }
         },
         "/rest/vcenter/vm/{vm}/guest/power?action=standby": {
@@ -24151,7 +24151,7 @@
                         }
                     }
                 },
-                "operationId": "standbyRestVcenterVmGuestPower"
+                "operationId": "standby"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware": {
@@ -24233,7 +24233,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardware"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -24309,7 +24309,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardware",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware_update"
                 }
@@ -24390,7 +24390,7 @@
                         }
                     }
                 },
-                "operationId": "upgradeRestVcenterVmHardwareAction",
+                "operationId": "upgrade",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware_upgrade"
                 }
@@ -24475,7 +24475,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmHardwareAdapterNvme",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.adapter.nvme_create"
                 }
@@ -24558,7 +24558,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmHardwareAdapterNvme"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/adapter/nvme/{adapter}": {
@@ -24649,7 +24649,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareAdapterNvme"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -24734,7 +24734,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmHardwareAdapterNvme"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/adapter/sata": {
@@ -24816,7 +24816,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmHardwareAdapterSata",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.adapter.sata_create"
                 }
@@ -24899,7 +24899,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmHardwareAdapterSata"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/adapter/sata/{adapter}": {
@@ -24990,7 +24990,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareAdapterSata"
+                "operationId": "get"
             },
             "delete": {
                 "tags": [
@@ -25075,7 +25075,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmHardwareAdapterSata"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/adapter/scsi": {
@@ -25157,7 +25157,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmHardwareAdapterScsi",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.adapter.scsi_create"
                 }
@@ -25240,7 +25240,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmHardwareAdapterScsi"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/adapter/scsi/{adapter}": {
@@ -25331,7 +25331,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareAdapterScsi"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -25416,7 +25416,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardwareAdapterScsi",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.adapter.scsi_update"
                 }
@@ -25504,7 +25504,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmHardwareAdapterScsi"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/boot": {
@@ -25586,7 +25586,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareBoot"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -25662,7 +25662,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardwareBoot",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.boot_update"
                 }
@@ -25743,7 +25743,7 @@
                         }
                     }
                 },
-                "operationId": "setRestVcenterVmHardwareBootDevice",
+                "operationId": "set",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.boot.device_set"
                 }
@@ -25826,7 +25826,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareBootDevice"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/cdrom": {
@@ -25908,7 +25908,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmHardwareCdrom",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.cdrom_create"
                 }
@@ -25991,7 +25991,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmHardwareCdrom"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/cdrom/{cdrom}": {
@@ -26082,7 +26082,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareCdrom"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -26167,7 +26167,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardwareCdrom",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.cdrom_update"
                 }
@@ -26255,7 +26255,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmHardwareCdrom"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/cdrom/{cdrom}/connect": {
@@ -26342,7 +26342,7 @@
                         }
                     }
                 },
-                "operationId": "connectRestVcenterVmHardwareCdrom"
+                "operationId": "connect"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/cdrom/{cdrom}/disconnect": {
@@ -26429,7 +26429,7 @@
                         }
                     }
                 },
-                "operationId": "disconnectRestVcenterVmHardwareCdrom"
+                "operationId": "disconnect"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/cpu": {
@@ -26511,7 +26511,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareCpu"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -26587,7 +26587,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardwareCpu",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.cpu_update"
                 }
@@ -26672,7 +26672,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmHardwareDisk",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.disk_create"
                 }
@@ -26755,7 +26755,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmHardwareDisk"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/disk/{disk}": {
@@ -26846,7 +26846,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareDisk"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -26931,7 +26931,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardwareDisk",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.disk_update"
                 }
@@ -27019,7 +27019,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmHardwareDisk"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/ethernet": {
@@ -27101,7 +27101,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmHardwareEthernet",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.ethernet_create"
                 }
@@ -27184,7 +27184,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmHardwareEthernet"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/ethernet/{nic}": {
@@ -27275,7 +27275,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareEthernet"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -27360,7 +27360,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardwareEthernet",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.ethernet_update"
                 }
@@ -27448,7 +27448,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmHardwareEthernet"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/ethernet/{nic}/connect": {
@@ -27535,7 +27535,7 @@
                         }
                     }
                 },
-                "operationId": "connectRestVcenterVmHardwareEthernet"
+                "operationId": "connect"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/ethernet/{nic}/disconnect": {
@@ -27622,7 +27622,7 @@
                         }
                     }
                 },
-                "operationId": "disconnectRestVcenterVmHardwareEthernet"
+                "operationId": "disconnect"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/floppy": {
@@ -27704,7 +27704,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmHardwareFloppy",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.floppy_create"
                 }
@@ -27787,7 +27787,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmHardwareFloppy"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/floppy/{floppy}": {
@@ -27878,7 +27878,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareFloppy"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -27963,7 +27963,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardwareFloppy",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.floppy_update"
                 }
@@ -28051,7 +28051,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmHardwareFloppy"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/floppy/{floppy}/connect": {
@@ -28138,7 +28138,7 @@
                         }
                     }
                 },
-                "operationId": "connectRestVcenterVmHardwareFloppy"
+                "operationId": "connect"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/floppy/{floppy}/disconnect": {
@@ -28225,7 +28225,7 @@
                         }
                     }
                 },
-                "operationId": "disconnectRestVcenterVmHardwareFloppy"
+                "operationId": "disconnect"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/memory": {
@@ -28307,7 +28307,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareMemory"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -28383,7 +28383,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardwareMemory",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.memory_update"
                 }
@@ -28468,7 +28468,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmHardwareParallel",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.parallel_create"
                 }
@@ -28551,7 +28551,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmHardwareParallel"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/parallel/{port}": {
@@ -28642,7 +28642,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareParallel"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -28727,7 +28727,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardwareParallel",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.parallel_update"
                 }
@@ -28815,7 +28815,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmHardwareParallel"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/parallel/{port}/connect": {
@@ -28902,7 +28902,7 @@
                         }
                     }
                 },
-                "operationId": "connectRestVcenterVmHardwareParallel"
+                "operationId": "connect"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/parallel/{port}/disconnect": {
@@ -28989,7 +28989,7 @@
                         }
                     }
                 },
-                "operationId": "disconnectRestVcenterVmHardwareParallel"
+                "operationId": "disconnect"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/serial": {
@@ -29071,7 +29071,7 @@
                         }
                     }
                 },
-                "operationId": "createRestVcenterVmHardwareSerial",
+                "operationId": "create",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.serial_create"
                 }
@@ -29154,7 +29154,7 @@
                         }
                     }
                 },
-                "operationId": "listRestVcenterVmHardwareSerial"
+                "operationId": "list"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/serial/{port}": {
@@ -29245,7 +29245,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmHardwareSerial"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -29330,7 +29330,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmHardwareSerial",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.hardware.serial_update"
                 }
@@ -29418,7 +29418,7 @@
                         }
                     }
                 },
-                "operationId": "deleteRestVcenterVmHardwareSerial"
+                "operationId": "delete"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/serial/{port}/connect": {
@@ -29505,7 +29505,7 @@
                         }
                     }
                 },
-                "operationId": "connectRestVcenterVmHardwareSerial"
+                "operationId": "connect"
             }
         },
         "/rest/vcenter/vm/{vm}/hardware/serial/{port}/disconnect": {
@@ -29592,7 +29592,7 @@
                         }
                     }
                 },
-                "operationId": "disconnectRestVcenterVmHardwareSerial"
+                "operationId": "disconnect"
             }
         },
         "/rest/vcenter/vm/{vm}/library-item": {
@@ -29654,7 +29654,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmLibraryItem"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm/{vm}/power": {
@@ -29736,7 +29736,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmPower"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm/{vm}/power/reset": {
@@ -29814,7 +29814,7 @@
                         }
                     }
                 },
-                "operationId": "resetRestVcenterVmPower"
+                "operationId": "reset"
             }
         },
         "/rest/vcenter/vm/{vm}/power/start": {
@@ -29892,7 +29892,7 @@
                         }
                     }
                 },
-                "operationId": "startRestVcenterVmPower"
+                "operationId": "start"
             }
         },
         "/rest/vcenter/vm/{vm}/power/stop": {
@@ -29970,7 +29970,7 @@
                         }
                     }
                 },
-                "operationId": "stopRestVcenterVmPower"
+                "operationId": "stop"
             }
         },
         "/rest/vcenter/vm/{vm}/power/suspend": {
@@ -30048,7 +30048,7 @@
                         }
                     }
                 },
-                "operationId": "suspendRestVcenterVmPower"
+                "operationId": "suspend"
             }
         },
         "/rest/vcenter/vm/{vm}/storage/policy": {
@@ -30120,7 +30120,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmStoragePolicy"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -30186,7 +30186,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmStoragePolicy",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.storage.policy_update"
                 }
@@ -30261,7 +30261,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmStoragePolicyCompliance"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm/{vm}/storage/policy/compliance?action=check": {
@@ -30333,7 +30333,7 @@
                         }
                     }
                 },
-                "operationId": "checkRestVcenterVmStoragePolicyCompliance",
+                "operationId": "check",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.storage.policy.compliance_check"
                 }
@@ -30388,7 +30388,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmTools"
+                "operationId": "get"
             },
             "patch": {
                 "tags": [
@@ -30434,7 +30434,7 @@
                         }
                     }
                 },
-                "operationId": "updateRestVcenterVmTools",
+                "operationId": "update",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.tools_update"
                 }
@@ -30489,7 +30489,7 @@
                         }
                     }
                 },
-                "operationId": "getRestVcenterVmToolsInstaller"
+                "operationId": "get"
             }
         },
         "/rest/vcenter/vm/{vm}/tools/installer?action=connect": {
@@ -30537,7 +30537,7 @@
                         }
                     }
                 },
-                "operationId": "connectRestVcenterVmToolsInstaller"
+                "operationId": "connect"
             }
         },
         "/rest/vcenter/vm/{vm}/tools/installer?action=disconnect": {
@@ -30585,7 +30585,7 @@
                         }
                     }
                 },
-                "operationId": "disconnectRestVcenterVmToolsInstaller"
+                "operationId": "disconnect"
             }
         },
         "/rest/vcenter/vm/{vm}/tools?action=upgrade": {
@@ -30643,7 +30643,7 @@
                         }
                     }
                 },
-                "operationId": "upgradeRestVcenterVmTools",
+                "operationId": "upgrade",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.vm.tools_upgrade"
                 }
@@ -30724,7 +30724,7 @@
                         }
                     }
                 },
-                "operationId": "relocateRestVcenterVm",
+                "operationId": "relocate",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.VM_relocate"
                 }
@@ -30809,7 +30809,7 @@
                         }
                     }
                 },
-                "operationId": "relocate$taskRestVcenterVm",
+                "operationId": "relocate$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.VM_relocate_task"
                 }
@@ -30890,7 +30890,7 @@
                         }
                     }
                 },
-                "operationId": "unregisterRestVcenterVm"
+                "operationId": "unregister"
             }
         },
         "/rest/vcenter/vm?action=clone": {
@@ -30962,7 +30962,7 @@
                         }
                     }
                 },
-                "operationId": "cloneRestVcenterVm",
+                "operationId": "clone",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.VM_clone"
                 }
@@ -31037,7 +31037,7 @@
                         }
                     }
                 },
-                "operationId": "clone$taskRestVcenterVm",
+                "operationId": "clone$task",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.VM_clone_task"
                 }
@@ -31112,7 +31112,7 @@
                         }
                     }
                 },
-                "operationId": "instantCloneRestVcenterVm",
+                "operationId": "instant_clone",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.VM_instant_clone"
                 }
@@ -31187,7 +31187,7 @@
                         }
                     }
                 },
-                "operationId": "registerRestVcenterVm",
+                "operationId": "register",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/vcenter.VM_register"
                 }
